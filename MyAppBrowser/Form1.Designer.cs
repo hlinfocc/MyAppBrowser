@@ -63,7 +63,7 @@ namespace MyAppBrowser
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
-            this.Text = "贵州师范学院学生资助平台";
+            this.Text = "呐喊的专栏";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
