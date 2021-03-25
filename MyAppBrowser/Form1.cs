@@ -24,7 +24,8 @@ namespace MyAppBrowser
                 MultiThreadedMessageLoop = true
             };
             Cef.Initialize(setting);
-            ChromiumWebBrowser browser = new ChromiumWebBrowser("https://zz.gznc.edu.cn");
+            this.Text = "呐喊的专栏";
+            ChromiumWebBrowser browser = new ChromiumWebBrowser("https://blog.csdn.net/nahancy");
             browser.Dock = DockStyle.Fill;
             //this.Controls.Add(browser);
             browser.TitleChanged += Browser_TitleChanged1;
