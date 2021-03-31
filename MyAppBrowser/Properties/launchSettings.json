@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyAppBrowser": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
